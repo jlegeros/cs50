@@ -3,17 +3,12 @@
 
 int main(void)
 {
-  bool inputInvalid = true;
   int height;
 
   do
   {
     height = get_int("Height:");
-    if (height >= 1 && height <= 8)
-    {
-      inputInvalid = false;
-    }
-  } while (inputInvalid);
+  } while (height < 1 || height > 8);
 
   // Print the pyramid out to the console
   int count = 0;
