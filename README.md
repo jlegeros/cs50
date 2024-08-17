@@ -1,1 +1,1 @@
-Repo for CareerDevs Intermediate Class containing my CS50 Work
+Repo the Harvard CS50 Work I did a few years back
